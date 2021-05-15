@@ -4,7 +4,7 @@ import soundfile
 
 def drum_separation(path):
     y, sr = librosa.load(path)
-    y_harmonic, y_percussive = librosa.effects.hpss(y)
+    y_harmonic, y_percussive = librosa.effects.hpss(y, margin=1.0)
     return y_harmonic, y_percussive, sr
 
 
