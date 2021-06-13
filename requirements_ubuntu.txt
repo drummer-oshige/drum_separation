@@ -1,3 +1,4 @@
+PySoundFile
 wheel
 Twisted
 librosa==0.8.0
