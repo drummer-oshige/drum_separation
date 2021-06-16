@@ -1,5 +1,5 @@
-PySoundFile
-wheel
-Twisted
+soundfile
+wheel==0.36.2
+Twisted==21.2.0
 librosa==0.8.0
 flake8==3.8.4
