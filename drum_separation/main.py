@@ -14,6 +14,7 @@ def main(input_path, output_path, mode):
         else:
             separation.write(output_path, y_harmonic, sr)
         sys.exit(0)
+        print('ファイルを出力しました。')
     except Exception as e:
         print(str(e))
         sys.exit(1)
