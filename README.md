@@ -1,6 +1,6 @@
 # drum_separation
 
-librosaをラップしてCLI的に手軽に音源分離出来ます。
+[librosa](https://github.com/librosa/librosa) をラップしてCLI的に手軽に音源分離出来ます。
 
 オーディオファイルを読み込み、ドラムを抽出したオーディオファイルを出力、またはドラムの音を除去したオーディオファイルを出力します。
 
